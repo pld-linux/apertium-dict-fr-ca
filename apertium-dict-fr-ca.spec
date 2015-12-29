@@ -2,12 +2,12 @@ Summary:	French/Catalan language pair for Apertium
 Summary(pl.UTF-8):	Para języków francuski-kataloński dla Apertium
 %define	lpair	fr-ca
 Name:		apertium-dict-%{lpair}
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	GPL v2+
 Group:		Applications/Text
 Source0:	http://downloads.sourceforge.net/apertium/apertium-%{lpair}-%{version}.tar.gz
-# Source0-md5:	f04cb595c342a623a5d17cd1f5bfa1f3
+# Source0-md5:	85536ea3ca0eb431f0b100fe88b8c4d4
 Patch0:		%{name}-DESTDIR.patch
 Patch1:		%{name}-apertium32.patch
 URL:		http://www.apertium.org/
